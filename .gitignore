@@ -1,0 +1,16 @@
+# Ignore Virtual Env
+venv/
+.env
+
+# Ignore Large Models & Cache (CRITICAL)
+models/
+notebooks/.gradio/
+__pycache__/
+*.ipynb_checkpoints/
+
+# Ignore Training Outputs
+notebooks/results/
+notebooks/results_optimized/
+
+# Ignore System Files
+.DS_Store
